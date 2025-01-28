@@ -1,1 +1,43 @@
-# ME-STUFF
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Menu</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <li class="list active">
+        <a href="#">
+            <span class="icon">
+                <ion-icon name="home-outline"></ion-icon>
+            </span>
+            <span class="text">Home</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+            <span class="icon">
+                <ion-icon name="book-outline"></ion-icon>
+            </span>
+            <span class="text">About</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+            <span class="icon">
+                <ion-icon name="chatbox-ellipse-outline"></ion-icon>
+            </span>
+            <span class="text">Contact Us</span>
+        </a>
+    </li>
+    <li class="list">
+        <a href="#">
+            <span class="icon">
+                <ion-icon name="settings-outline"></ion-icon>
+            </span>
+            <span class="text">Settings</span>
+        </a>
+    </li>
+</body>
+</html>
